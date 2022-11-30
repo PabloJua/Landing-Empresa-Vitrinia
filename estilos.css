@@ -1,0 +1,318 @@
+:root {
+    --dark: #0a0a0a;
+    --dark-x: #111111;
+    --dark-xx: #222222;
+    --light: #ffffff;
+    --primary: #06283d;
+    --primary-x: #256D85;
+    --primary-xx:#47b5ff;
+    --primary-xxx: #03141d;
+    --primary-xxxx: #104a5d;
+    --muted: #a1b0bf;
+}
+
+.tarjeta-funciona {
+    width: auto!important;
+    height: 500px!important;
+}
+
+.tarjeta-compra {
+    width: 355px!important;
+    height: 215px!important;
+}
+
+.home {
+    padding-top: 250px!important;
+    padding-bottom: 150px!important;
+}
+
+.bg-home {
+    background: linear-gradient(150deg, var(--primary-x)10%, var(--light) 100%);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.boton-efecto {
+    transition: all 0.5s;
+}
+
+.boton-efecto:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+
+.boton-efecto-navbar {
+    transition: all 0.5s;
+}
+
+.boton-efecto-navbar:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    color: #beddc9;   
+}
+
+
+
+
+.card {
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+
+
+
+
+.texto-compra {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+
+.texto-funciona {
+    font-size: 40px;
+}
+
+.texto-home {
+    font-size: 40px;
+}
+
+.texto-formar-parte {
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.altura-padding-arriba-abajo{
+    padding: 100px 0;
+}
+
+
+.boton-descarga-ios {
+    width: 160px!important;
+    height: 51px!important;
+}
+
+.boton-descarga-android {
+    width: 170px!important;
+    height: 51px!important;
+}
+
+.tarjeta-negocio {
+    padding-left: 150px!important;
+}
+
+.text-light {
+    color: var(--light)!important;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    /* font-weight: 300; */
+    color: var(--primary);
+    background-color: #ffffff;
+}
+
+.bg-dark{
+    background-color: var(--dark)!important;
+}
+
+.navbar { /*para la altura minima*/
+    min-height: 5rem;
+}
+
+.text-primary { /*color rojo gradiente*/
+    background: linear-gradient(90deg, var(--primary)0%, var(--primary-x) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-primary-x{
+    background: linear-gradient(90deg, var(--primary-x)0%, var(--light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-primary-xx {
+    background: linear-gradient(90deg, var(--primary-xxx)0%, var(--primary-xxxx) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-primary-xxx {
+    color: var(--primary-xxx);
+}
+
+
+
+/* Cambiar el color del Home en el Navbar
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fffbfb;
+} 
+
+
+Cambiar el color de los demas elemnetos del navbar
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(201 35 35 / 67%);
+}
+*/
+
+
+
+
+.text-muted {
+    color: var(--muted) !important;
+}
+
+.btn {
+    font-weight: 700;
+    padding: .8rem 1rem;
+    border: 0;
+    border-radius: .4rem;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--primary)0%, var(--primary-x) 100%);
+    color: var(--light);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, var(--light)0%, var(--primary-x) 100%);
+    color: #09041c;
+    opacity: .8;
+}
+
+
+.btn-secondary {
+    background-color: var(--primary);
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(90deg, var(--primary)0%, var(--primary-x) 100%);
+    color: var(--light);
+    opacity: .8;
+}
+
+.shadow { /*sombra de los botones*/
+    box-shadow: 0 .5rem .5rem 0 rgba(0,0,0,.5)!important;
+}
+
+.bg-image-x {
+    background-image: url('images/bg-dark-2.svg');
+    background-size: cover; /*para que se ajuste al tamaño*/
+    min-height: 1000px;/*es lo que mide la imagen*/
+}
+
+.bg-image-x-extense {
+    background-color: var(--light);
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.bg-image {
+    background-image: url(images/bg-dark-1.svg);
+    background-size: cover;
+    min-height: 1000px;
+}
+
+.bg-dark-x {
+    background-color: var(--dark-x);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+}
+
+.bg-primary {
+    background: linear-gradient(90deg, var(--primary)0%, var(--primary-x) 100%);
+}
+
+.rouder-top {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+}
+
+.bg-image-xx {
+    background-image: url('images/bg-dark-3.svg');
+    background-size: cover; /*para que se ajuste al tamaño*/
+    min-height: 500px;/*es lo que mide la imagen*/
+}
+
+.form-control {
+    background-color: var(--dark-xx);
+    height: unset;
+    padding: .8rem 1rem;
+    border: none;
+}
+
+.form-control:focus {
+    background-color: var(--dark-xx);
+    box-shadow: none;
+}
+
+
+@media (max-width: 575.98px) {
+    
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .py-5 {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .list-inline-item { /*header*/
+        display: block;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    } 
+
+    footer .list-inline-item {/*iconos del footer*/
+        display: inline-block;
+    }
+
+    footer .text-end {
+        text-align: center !important;
+    }
+
+    footer small {
+        display: block;
+    }
+}

@@ -11,9 +11,11 @@
     --muted: #a1b0bf;
 }
 
+
+
 .tarjeta-funciona {
-    width: auto!important;
-    height: 500px!important;
+    width: 350px;
+    height: 450px!important;
 }
 
 .tarjeta-compra {
@@ -76,6 +78,7 @@
 
 .texto-funciona {
     font-size: 40px;
+    padding-right: 60px;
 }
 
 .texto-home {
